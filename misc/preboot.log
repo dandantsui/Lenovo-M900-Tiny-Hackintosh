@@ -1,0 +1,1180 @@
+0:100  0:100  MemLog inited, TSC freq: 2808385770
+0:100  0:000  CPU was calibrated with RTC
+0:100  0:000  
+0:100  0:000  Now is 07.04.2020,  19:50:47 (GMT)
+0:100  0:000  Starting Clover revision: 5109 (master, commit 5a8588318) on American Megatrends EFI
+0:100  0:000  Build with: [Args: -D NO_GRUB_DRIVERS_EMBEDDED -t GCC53 | -D NO_GRUB_DRIVERS_EMBEDDED --conf=/Users/sergey/src/CloverHackyColor/Conf -D USE_LOW_EBDA -a X64 -b RELEASE -t GCC53 -n 5 | OS: 10.14.6]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,2EBBCA99-DEC3-45D4-8E8A-1CAC7797F5B0,0x28,0x64000) @B7C26818
+0:100  0:000  SelfDirPath = \EFI\BOOT
+0:100  0:000  Clover : Image base = 0xB4EDC000
+0:100  0:000  SimpleTextEx Status=Success
+0:100  0:000  === [ Get Smbios ] ==============================
+0:100  0:000  Type 16 Index = 0
+0:100  0:000  Total Memory Slots Count = 2
+0:100  0:000  Type 17 Index = 0
+0:100  0:000  SmbiosTable.Type17->Speed = 2133MHz
+0:100  0:000  SmbiosTable.Type17->Size = 8192MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+0:100  0:000  SmbiosTable.Type17->Vendor = Samsung
+0:100  0:000  SmbiosTable.Type17->SerialNumber = 02221915
+0:100  0:000  SmbiosTable.Type17->PartNumber = M471A1G43DB0-CPB    
+0:100  0:000  Type 17 Index = 1
+0:100  0:000  Ignoring insane frequency value 0MHz
+0:100  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:100  0:000  SmbiosTable.Type17->Size = 0MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 2 ChannelB-DIMM0
+0:100  0:000  SmbiosTable.Type17->Vendor = 
+0:100  0:000  SmbiosTable.Type17->SerialNumber = 
+0:100  0:000  SmbiosTable.Type17->PartNumber = 
+0:100  0:000  Boot status=0
+0:100  0:000  Running on: 'PC-MK26ECZDR' with board '30D4'
+0:100  0:000  === [ GetCPUProperties ] ========================
+0:100  0:000  CPU Vendor = 756E6547 Model=506E3
+0:100  0:000   The CPU supported SSE4.1
+0:100  0:000  BrandString = Intel(R) Core(TM) i7-6700T CPU @ 2.80GHz
+0:100  0:000   The CPU supported turbo
+0:100  0:000  MSR 0x35               40008
+0:100  0:000   TSC/CCC Information Leaf:
+0:100  0:000    numerator     : 234
+0:100  0:000    denominator   : 2
+0:100  0:000   Calibrated ARTFrequency: 24003297
+0:100  0:000   Rounded ARTFrequency: 24000000
+0:100  0:000  MSR 0xE2 before patch 7E008005
+0:100  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:100  0:000  MSR 0xCE              0008083A_8083AF1011C00
+0:100  0:000  corrected FLEX_RATIO = 0
+0:100  0:000  MSR 0x1B0             00000000
+0:100  0:000  FSBFrequency = 100 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:100  0:000  MaxDiv/MinDiv: 28.0/8
+0:100  0:000  Turbo: 34/34/35/36
+0:100  0:000  Features: 0x77FAFBFFBFEBFBFF
+0:100  0:000  Threads: 8
+0:100  0:000  Cores: 4
+0:100  0:000  FSB: 100 MHz
+0:100  0:000  CPU: 2800 MHz
+0:100  0:000  TSC: 2800 MHz
+0:100  0:000  PIS: 100 MHz
+0:100  0:000  ExternalClock: 25 MHz
+0:100  0:000  === [ GetDevices ] ==============================
+0:100  0:000  GOP found at: PciRoot(0x0)/Pci(0x2,0x0)/AcpiAdr(0x80012321)
+0:100  0:000  PCI (00|00:00.00) : 8086 191F class=060000
+0:100  0:000  PCI (00|00:02.00) : 8086 1912 class=030000
+0:100  0:000   - GOP: Provided by device
+0:100  0:000   - GFX: Model=Intel HD Graphics 530 (Intel)
+0:100  0:000  PCI (00|00:14.00) : 8086 A12F class=0C0330
+0:100  0:000  PCI (00|00:16.00) : 8086 A13A class=078000
+0:100  0:000  PCI (00|00:17.00) : 8086 A102 class=010601
+0:100  0:000  PCI (00|00:1F.00) : 8086 A148 class=060100
+0:100  0:000  PCI (00|00:1F.02) : 8086 A121 class=058000
+0:100  0:000  PCI (00|00:1F.03) : 8086 A170 class=040300
+0:100  0:000  PCI (00|00:1F.04) : 8086 A123 class=0C0500
+0:100  0:000  PCI (00|00:1F.06) : 8086 15B8 class=020000
+0:100  0:000   - LAN: 0 Vendor=Intel
+0:100  0:000  === [ GetDefaultSettings ] ======================
+0:100  0:000  Clover load options size = 0 bytes
+0:102  0:001  CheckOEMPathExists tried EFI\CLOVER\OEM\PC-MK26ECZDR--00-00-00-00-00-00. Dir not exists
+0:102  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\30D4\UEFI. Dir not exists
+0:102  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\PC-MK26ECZDR. Dir not exists
+0:102  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\PC-MK26ECZDR-2800. Dir not exists
+0:102  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\30D4. Dir not exists
+0:102  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\30D4-2800. Dir not exists
+0:102  0:000  set OEMPath by default: EFI\CLOVER
+0:104  0:002  EFI\CLOVER\config.plist loaded: Success
+0:109  0:005  === [ GetListOfThemes ] =========================
+0:110  0:000  - [00]: SimpleThemeDark
+0:110  0:000  - [01]: Catalina
+0:112  0:002  - [02]: Hackintosh_ID
+0:113  0:001  - [03]: mac_default_V
+0:117  0:003  - [04]: random
+0:117  0:000  - [04]: embedded
+0:117  0:000  === [ Found config plists ] =====================
+0:117  0:000  - config.plist
+0:117  0:000  - config2.plist
+0:127  0:009  === [ GetEarlyUserSettings ] ====================
+0:127  0:000  timeout set to 5
+0:127  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:127  0:000  Default theme: embedded
+0:127  0:000  === [ LoadDrivers ] =============================
+0:129  0:001  Loading FSInject.efi  status=Success
+0:134  0:005  Loading NvmExpressDxe.efi  status=Success
+0:138  0:003   - driver needs connecting
+0:138  0:000  Loading HFSPlus.efi  status=Success
+0:142  0:004   - driver needs connecting
+0:142  0:000  Loading apfs.efi  status=Success
+0:149  0:007   - driver needs connecting
+0:150  0:000  Loading VirtualSmc.efi  status=Success
+0:256  0:106  Loading MemoryAllocation.efi  status=Success
+0:259  0:003  Loading DataHubDxe.efi  status=Success
+0:265  0:005  Loading PartitionDxe.efi  status=Success
+0:268  0:003   - driver needs connecting
+0:268  0:000  Loading ApfsDriverLoader.efi  status=Success
+0:374  0:105   - driver needs connecting
+0:374  0:000  Loading AptioMemoryFix.efi  status=Success
+0:480  0:106  Loading AudioDxe.efi  status=Success
+0:484  0:004   - driver needs connecting
+0:484  0:000  6 drivers needs connecting ...
+0:484  0:000  PlatformDriverOverrideProtocol not found. Installing ... Success
+0:484  0:000  Partition driver loaded: 
+0:484  0:000  HFS+ driver loaded
+0:484  0:000  APFS driver loaded
+0:484  0:000  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+4:764  4:280  === [ InitScreen ] ==============================
+4:764  0:000  Console modes reported: 8, available modes:
+4:764  0:000   - [01]: 80x25
+4:764  0:000   - [02]: 80x50
+4:764  0:000   - [03]: 100x31 (current mode)
+4:764  0:000   - [04]: 240x56
+4:764  0:000   - [05]: 128x40
+4:764  0:000   - [06]: 128x40
+4:764  0:000   - [07]: 128x40
+4:764  0:000   - [08]: 80x24
+4:764  0:000  SetScreenResolution: 1920x1080 - already set
+4:764  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,2EBBCA99-DEC3-45D4-8E8A-1CAC7797F5B0,0x28,0x64000)
+4:764  0:000  new SelfHandle=B7C26818
+4:767  0:002  Using embedded font: Success
+4:768  0:001  === [ GetMacAddress ] ===========================
+4:768  0:000  MAC address of LAN #0= 00:23:24:D9:37:B6:
+4:768  0:000  === [ ScanSPD ] =================================
+4:769  0:000  Scanning SMBus [8086:A123], mmio: 0xDF04A004, ioport: 0xF040, hostc: 0x11
+4:787  0:018  Slot: 0 Type 26 8192MB 2132MHz Vendor=Samsung PartNo=M471A1G43DB0-CPB SerialNo= 0 2 D C C 4 9 B
+4:788  0:001  === [ GetAcpiTablesList ] =======================
+4:792  0:004  Get Acpi Tables List from RSDT:
+4:792  0:000   - [00]: FACP  TC-FW    len=132
+4:792  0:000   - [01]: APIC  TC-FW    len=188
+4:792  0:000   - [02]: FPDT  TC-FW    len=68
+4:792  0:000   - [03]: FIDT  TC-FW    len=156
+4:792  0:000   - [04]: TCPA  TC-FW    len=50
+4:792  0:000   - [05]: MCFG  TC-FW    len=60
+4:792  0:000   - [06]: HPET  TC-FW    len=56
+4:792  0:000   - [07]: SSDT  TC-FW    len=877
+4:792  0:000   - [08]: LPIT  TC-FW    len=148
+4:792  0:000   - [09]: SSDT  TC-FW    len=584
+4:792  0:000   - [10]: SSDT  TC-FW    len=11182
+4:792  0:000   - [11]: SSDT  TC-FW    len=3043
+4:792  0:000   - [12]: DBGP  TC-FW    len=52
+4:792  0:000   - [13]: DBG2  TC-FW    len=84
+4:792  0:000   - [14]: SSDT  TC-FW    len=2563
+4:792  0:000   - [15]: SLIC  TC-FW    len=374
+4:792  0:000   - [16]: MSDM  TC-FW    len=85
+4:792  0:000   - [17]: SSDT  TC-FW    len=21666
+4:792  0:000   - [18]: UEFI  TC-FW    len=66
+4:792  0:000   - [19]: SSDT  TC-FW    len=3699
+4:792  0:000   - [20]: BGRT  TC-FW    len=56
+4:792  0:000   - [21]: LUFT  TC-FW    len=354786
+4:792  0:000   - [22]: WPBT  TC-FW len=52
+4:792  0:000   - [23]: ASF!  TC-FW    len=165
+4:792  0:000  Calibrated TSC Frequency = 2808385770 = 2808MHz
+4:793  0:000  === [ GetUserSettings ] =========================
+4:793  0:000  Add 1 devices (kTagTypeDict):
+4:793  0:000  USB FixOwnership: yes
+4:793  0:000   - final DSDT Fix mask=00000004
+4:793  0:000  Using ProductName from config: iMac17,1
+4:793  0:000  Found same BiosVersion in clover and config
+4:793  0:000  BiosVersion: IM171.88Z.F000.B00.2001311733
+4:793  0:000  BiosReleaseDate: 01/31/2020
+4:793  0:000  Using EfiVersion from clover: 176.0.0.0.0
+4:793  0:000  Using FirmwareFeatures from config: 0xFC0FE176
+4:793  0:000  Using FirmwareFeaturesMask from config: 0xFF1FFF7F
+4:793  0:000  Board-ID set from config as Mac-B809C3757DA9BB8D
+4:793  0:000  BoardType: 0xA
+4:793  0:000  ChassisType: 0x9
+4:793  0:000  Converted CustomUUID B50945C2-F09C-4769-84A6-047DB1E4D841
+4:795  0:001  === [ Found DSDT tables ] =======================
+5:529  0:733  === [ ScanVolumes ] =============================
+5:529  0:000  Found 10 volumes with blockIO
+5:529  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x10,0x0)
+5:532  0:003          Result of bootcode detection: bootable unknown (legacy)
+5:532  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x10,0x0)\HD(1,MBR,0x8E7088C4,0x800,0x6FCB800)
+5:534  0:001          Result of bootcode detection: bootable unknown (legacy)
+5:534  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)
+5:535  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,2EBBCA99-DEC3-45D4-8E8A-1CAC7797F5B0,0x28,0x64000)
+5:535  0:000          Result of bootcode detection: bootable unknown (legacy)
+5:535  0:000          This is SelfVolume !!
+5:535  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,AB70EADC-95BA-4ED4-BCE7-DA49FC1AE046,0x64028,0x1BEC0460)
+5:536  0:000          Result of bootcode detection: bootable unknown (legacy)
+5:536  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,AB70EADC-95BA-4ED4-BCE7-DA49FC1AE046,0x64028,0x1BEC0460)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,B3B3FC64BDE91D4D9655772870AF9C31)
+5:536  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,AB70EADC-95BA-4ED4-BCE7-DA49FC1AE046,0x64028,0x1BEC0460)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,FD5698CEAD4E24459CF3A60754354092)
+5:536  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,AB70EADC-95BA-4ED4-BCE7-DA49FC1AE046,0x64028,0x1BEC0460)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,79209304B631C24D9F937989DA359D08)
+5:536  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,AB70EADC-95BA-4ED4-BCE7-DA49FC1AE046,0x64028,0x1BEC0460)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,78351F40ED407F4B80B93FF5E6D31EAE)
+5:536  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,AB70EADC-95BA-4ED4-BCE7-DA49FC1AE046,0x64028,0x1BEC0460)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,AAB7EEE5247C034C854C38DAD600628F)
+5:536  0:000  found 2 handles with audio
+5:536  0:000  got index=1
+5:536  0:000  got volume 70
+5:536  0:000  Found Audio Device Realtek ALC233 (Speaker) at index 0
+5:536  0:000  Found Audio Device Realtek ALC233 (LineOut) at index 1
+5:536  0:000  Found Audio Device Realtek ALC233 (Headphones) at index 2
+5:536  0:000  Found Audio Device Intel Skylake HDMI (HDMI) at index 3
+5:536  0:000  === [ InitXTheme ] ==============================
+5:536  0:000  use daylight theme
+5:536  0:000   using embedded theme
+5:536  0:000  got embedded sound
+5:536  0:000    Channels: 2  Sample rate: 8000 Hz  Bits: 16
+5:536  0:000  output to channel 1 with volume 70, len=25600
+5:536  0:000   sound channels=2 bits=16 freq=8000
+5:537  0:000  sound converted to 48kHz
+6:917  1:380  sound play end with status=Success
+6:920  0:002  Using embedded font: Success
+7:012  0:092  theme inited
+7:012  0:000  Chosen embedded theme
+7:012  0:000  after NVRAM boot-args=kext-dev-mode=1 rootless=0 -disablegfxfirmware
+7:012  0:000  === [ Dump SMC keys from NVRAM ] ================
+7:013  0:000  found AppleSMC protocol
+7:026  0:013  === [ ScanLoader ] ==============================
+7:026  0:000  - [03]: 'EFI'
+7:026  0:000          AddLoaderEntry for Volume Name=EFI
+7:026  0:000          skipped because entry is hidden
+7:026  0:000  - [05]: 'Preboot'
+7:028  0:001          AddLoaderEntry for Volume Name=Preboot
+7:031  0:003      Check if volume Is Hibernated:
+7:031  0:000      Check sleep image 'by signature':
+7:031  0:000      using default sleep image name = \private\var\vm\sleepimage
+7:031  0:000      sleepimage not found -> Not Found
+7:031  0:000      hibernated: no - sign
+7:032  0:000  - [06]: 'MACOS - æ•°æ®'
+7:036  0:004  - [07]: 'Recovery'
+7:036  0:000          AddLoaderEntry for Volume Name=Recovery
+7:038  0:002  - [08]: 'VM'
+7:039  0:000  - [09]: 'MACOS'
+7:060  0:021          AddLoaderEntry for Volume Name=MACOS
+7:067  0:006      Check if volume Is Hibernated:
+7:067  0:000      Check sleep image 'by signature':
+7:068  0:001      using default sleep image name = \private\var\vm\sleepimage
+7:068  0:000      sleepimage not found -> Not Found
+7:068  0:000      hibernated: no - sign
+7:068  0:000  Scanning legacy ...
+7:068  0:000  === [ AddCustomTool ] ===========================
+7:068  0:000  found tool \EFI\CLOVER\tools\Shell64U.efi
+7:068  0:000  Checking EFI partition Volume 3 for Clover
+7:068  0:000   Found Clover
+7:069  0:000  === [ GetEfiBootDeviceFromNvram ] ===============
+7:069  0:000   - efi-boot-device-data: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,AB70EADC-95BA-4ED4-BCE7-DA49FC1AE046,0x64028,0x1BEC0460)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,B3B3FC64BDE91D4D9655772870AF9C31)
+7:069  0:000    - Volume: 'PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,AB70EADC-95BA-4ED4-BCE7-DA49FC1AE046,0x64028,0x1BEC0460)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,B3B3FC64BDE91D4D9655772870AF9C31)'
+7:069  0:000    - LoaderPath: ''
+7:069  0:000    - Guid = AB70EADC-95BA-4ED4-BCE7-DA49FC1AE046
+7:069  0:000  === [ FindStartupDiskVolume ] ===================
+7:069  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,AB70EADC-95BA-4ED4-BCE7-DA49FC1AE046,0x64028,0x1BEC0460)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,B3B3FC64BDE91D4D9655772870AF9C31)
+7:069  0:000     - searching for that partition
+7:069  0:000      - found entry 0. 'Boot FileVault Prebooter from Preboot', Volume 'Preboot'
+7:069  0:000  Boot redirected to Entry 0. 'Boot FileVault Prebooter from Preboot'
+7:123  0:053  GUI ready
+14:677  7:554  ReinitSelfLib after theme change
+14:677  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,2EBBCA99-DEC3-45D4-8E8A-1CAC7797F5B0,0x28,0x64000)
+14:677  0:000  new SelfHandle=B7C26818
+14:677  0:000  === [ ScanVolumes ] =============================
+14:677  0:000  Found 10 volumes with blockIO
+14:677  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x10,0x0)
+14:678  0:001          Result of bootcode detection: bootable unknown (legacy)
+14:678  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x10,0x0)\HD(1,MBR,0x8E7088C4,0x800,0x6FCB800)
+14:680  0:001          Result of bootcode detection: bootable unknown (legacy)
+14:680  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)
+14:681  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,2EBBCA99-DEC3-45D4-8E8A-1CAC7797F5B0,0x28,0x64000)
+14:681  0:000          Result of bootcode detection: bootable unknown (legacy)
+14:681  0:000          This is SelfVolume !!
+14:681  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,AB70EADC-95BA-4ED4-BCE7-DA49FC1AE046,0x64028,0x1BEC0460)
+14:682  0:000          Result of bootcode detection: bootable unknown (legacy)
+14:682  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,AB70EADC-95BA-4ED4-BCE7-DA49FC1AE046,0x64028,0x1BEC0460)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,B3B3FC64BDE91D4D9655772870AF9C31)
+14:682  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,AB70EADC-95BA-4ED4-BCE7-DA49FC1AE046,0x64028,0x1BEC0460)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,FD5698CEAD4E24459CF3A60754354092)
+14:682  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,AB70EADC-95BA-4ED4-BCE7-DA49FC1AE046,0x64028,0x1BEC0460)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,79209304B631C24D9F937989DA359D08)
+14:682  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,AB70EADC-95BA-4ED4-BCE7-DA49FC1AE046,0x64028,0x1BEC0460)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,78351F40ED407F4B80B93FF5E6D31EAE)
+14:682  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,AB70EADC-95BA-4ED4-BCE7-DA49FC1AE046,0x64028,0x1BEC0460)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,AAB7EEE5247C034C854C38DAD600628F)
+14:682  0:000  found 2 handles with audio
+14:682  0:000  got index=1
+14:683  0:000  got volume 70
+14:683  0:000  Found Audio Device Realtek ALC233 (Speaker) at index 0
+14:683  0:000  Found Audio Device Realtek ALC233 (LineOut) at index 1
+14:683  0:000  Found Audio Device Realtek ALC233 (Headphones) at index 2
+14:683  0:000  Found Audio Device Intel Skylake HDMI (HDMI) at index 3
+14:683  0:000  change theme
+14:683  0:000  === [ InitXTheme ] ==============================
+14:683  0:000  use daylight theme
+14:690  0:007  Using theme 'Catalina' (EFI\CLOVER\themes\Catalina)
+14:690  0:000  chosen theme Catalina
+14:690  0:000  OS main and drive as badge
+14:841  0:150    Channels: 1  Sample rate: 44100 Hz  Bits: 16
+14:841  0:000  output to channel 1 with volume 70, len=228736
+14:841  0:000   sound channels=1 bits=16 freq=44100
+18:021  3:180  sound play end with status=Success
+18:024  0:002  Loading font from ThemeDir: Success
+18:246  0:221  theme inited
+18:246  0:000  Chosen theme Catalina
+18:246  0:000  after NVRAM boot-args=kext-dev-mode=1 rootless=0 -disablegfxfirmware
+18:246  0:000  === [ ScanLoader ] ==============================
+18:246  0:000  - [03]: 'EFI'
+18:246  0:000          AddLoaderEntry for Volume Name=EFI
+18:246  0:000          skipped because entry is hidden
+18:246  0:000  - [05]: 'Preboot'
+18:246  0:000          AddLoaderEntry for Volume Name=Preboot
+18:247  0:000      Check if volume Is Hibernated:
+18:247  0:000      Check sleep image 'by signature':
+18:247  0:000      using default sleep image name = \private\var\vm\sleepimage
+18:247  0:000      sleepimage not found -> Not Found
+18:247  0:000      hibernated: no - sign
+18:248  0:000  - [06]: 'MACOS - æ•°æ®'
+18:249  0:000  - [07]: 'Recovery'
+18:249  0:000          AddLoaderEntry for Volume Name=Recovery
+18:251  0:001  - [08]: 'VM'
+18:251  0:000  - [09]: 'MACOS'
+18:252  0:000          AddLoaderEntry for Volume Name=MACOS
+18:252  0:000      Check if volume Is Hibernated:
+18:252  0:000      Check sleep image 'by signature':
+18:253  0:000      using default sleep image name = \private\var\vm\sleepimage
+18:253  0:000      sleepimage not found -> Not Found
+18:253  0:000      hibernated: no - sign
+18:253  0:000  Scanning legacy ...
+18:253  0:000  === [ AddCustomTool ] ===========================
+18:253  0:000  found tool \EFI\CLOVER\tools\Shell64U.efi
+18:253  0:000  Checking EFI partition Volume 3 for Clover
+18:253  0:000   Found Clover
+18:253  0:000  === [ GetEfiBootDeviceFromNvram ] ===============
+18:253  0:000  === [ FindStartupDiskVolume ] ===================
+18:253  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,AB70EADC-95BA-4ED4-BCE7-DA49FC1AE046,0x64028,0x1BEC0460)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,B3B3FC64BDE91D4D9655772870AF9C31)
+18:253  0:000     - searching for that partition
+18:253  0:000      - found entry 0. 'Boot FileVault Prebooter from Preboot', Volume 'Preboot'
+18:253  0:000  Boot redirected to Entry 0. 'Boot FileVault Prebooter from Preboot'
+55:814  37:560  Chosen output 0:Realtek ALC233_LineOut
+56:908  1:093  open 0 audio handle status=Success
+56:908  0:000  got embedded sound
+56:908  0:000    Channels: 2  Sample rate: 8000 Hz  Bits: 16
+56:908  0:000  output to channel 0 with volume 70, len=25600
+56:908  0:000   sound channels=2 bits=16 freq=8000
+56:908  0:000  sound converted to 48kHz
+58:274  1:365  sound play end with status=Success
+102:942  44:668  test Font.svg loaded status=Not Found
+HdaCodecDump Start
+Codec: Realtek ALC233
+Address: 1
+AFG Function Id: 0x1 (unsol 1)
+Vendor ID: 0x10EC0233
+Revision ID: 0x00100003
+Default PCM:
+    rates [0x0560]: 44100 48000 96000 192000
+    bits [0x000E]: 16 20 24
+    formats [0x00000001]: PCM
+Default Amp-In caps: N/A
+Default Amp-Out caps: N/A
+Node 0x02 [Audio Output] wcaps 0x0000041D: Stereo Amp-Out
+  Amp-Out caps: ofs=0x57, nsteps=0x57, stepsize=02, mute=0
+  Amp-Out vals: [0x57 0x57]
+Node 0x03 [Audio Output] wcaps 0x0000041D: Stereo Amp-Out
+  Amp-Out caps: ofs=0x57, nsteps=0x57, stepsize=02, mute=0
+  Amp-Out vals: [0x57 0x57]
+Node 0x04 [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x05 [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x06 [Audio Output] wcaps 0x00000611: Stereo Digital
+Node 0x07 [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x08 [Audio Input] wcaps 0x0010051B: Stereo Amp-In
+  Amp-In caps: ofs=0x17, nsteps=0x3F, stepsize=02, mute=1
+  Amp-In vals: [0x97 0x97]
+  Connection: 1
+     0x23
+Node 0x09 [Audio Input] wcaps 0x0010051B: Stereo Amp-In
+  Amp-In caps: ofs=0x17, nsteps=0x3F, stepsize=02, mute=1
+  Amp-In vals: [0x97 0x97]
+  Connection: 1
+     0x22
+Node 0x0A [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x0B [Audio Mixer] wcaps 0x0020010B: Stereo Amp-In
+  Amp-In caps: ofs=0x17, nsteps=0x1F, stepsize=05, mute=1
+  Amp-In vals: [0x97 0x97] [0x97 0x97] [0x97 0x97] [0x97 0x97] [0x17 0x17]
+  Connection: 5
+     0x18 0x19 0x1A 0x1B 0x1D
+Node 0x0C [Audio Mixer] wcaps 0x0020010B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-In vals: [0x00 0x00] [0x00 0x00]
+  Connection: 2
+     0x02 0x0B
+Node 0x0D [Audio Mixer] wcaps 0x0020010B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-In vals: [0x00 0x00] [0x80 0x80]
+  Connection: 2
+     0x03 0x0B
+Node 0x0E [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x0F [Audio Mixer] wcaps 0x0020010A: Mono Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-In vals: [0x00]
+  Connection: 1
+     0x0D
+Node 0x10 [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x11 [Audio Input] wcaps 0x0010051B: Stereo Amp-In
+  Amp-In caps: ofs=0x17, nsteps=0x3F, stepsize=02, mute=1
+  Amp-In vals: [0x97 0x97]
+  Connection: 1
+     0x12
+Node 0x12 [Pin Complex] wcaps 0x0040040B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=2F, mute=0
+  Amp-In vals:
+  Pincap 0x00000020: IN
+  Pin Default 0x40000000: [None] Line Out at Ext N/A
+    Conn = Unknown, Color = Unknown
+    DefAssociation = 0x0, Sequence = 0x0
+  Pin-ctls: 0x00:
+Node 0x13 [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x14 [Pin Complex] wcaps 0x0040058D: Stereo Amp-Out
+  Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-Out vals: [0x00 0x00]
+  Pincap 0x00010014: OUT EAPD Detect
+  EAPD 0x2: EAPD
+  Pin Default 0x90170110: [Fixed] Speaker at Int N/A
+    Conn = Analog, Color = Unknown
+    DefAssociation = 0x1, Sequence = 0x0
+  Pin-ctls: 0x40: OUT
+  Connection: 1
+     0x0C
+Node 0x15 [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x16 [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x17 [Pin Complex] wcaps 0x0040050C: Mono Amp-Out
+  Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-Out vals: [0x80]
+  Pincap 0x00000010: OUT
+  Pin Default 0x411111F0: [None] Speaker at Ext Rear
+    Conn = 1/8, Color = Black
+    DefAssociation = 0xF, Sequence = 0x0
+  Pin-ctls: 0x00:
+  Connection: 1
+     0x0F
+Node 0x18 [Pin Complex] wcaps 0x0040048B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=2F, mute=0
+  Amp-In vals:
+  Pincap 0x00003724: IN Detect
+  Pin Default 0x411111F0: [None] Speaker at Ext Rear
+    Conn = 1/8, Color = Black
+    DefAssociation = 0xF, Sequence = 0x0
+  Pin-ctls: 0x20: IN
+Node 0x19 [Pin Complex] wcaps 0x0040048B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=2F, mute=0
+  Amp-In vals:
+  Pincap 0x00003724: IN Detect
+  Pin Default 0x02A11030: [Jack] Mic at Ext Front
+    Conn = 1/8, Color = Black
+    DefAssociation = 0x3, Sequence = 0x0
+  Pin-ctls: 0x20: IN
+Node 0x1A [Pin Complex] wcaps 0x0040048B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=2F, mute=0
+  Amp-In vals:
+  Pincap 0x00003724: IN Detect
+  Pin Default 0x02A11040: [Jack] Mic at Ext Front
+    Conn = 1/8, Color = Black
+    DefAssociation = 0x4, Sequence = 0x0
+  Pin-ctls: 0x20: IN
+Node 0x1B [Pin Complex] wcaps 0x0040058F: Stereo Amp-In Amp-Out
+  Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=2F, mute=0
+  Amp-In vals: [0x00 0x00] [0x00 0x00]
+  Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-Out vals: [0x80 0x80]
+  Pincap 0x0001373C: IN OUT HP EAPD Detect
+  EAPD 0x2: EAPD
+  Pin Default 0x01011020: [Jack] Line Out at Ext Rear
+    Conn = 1/8, Color = Black
+    DefAssociation = 0x2, Sequence = 0x0
+  Pin-ctls: 0x20: IN
+  Connection: 2
+     0x0C 0x0D
+Node 0x1C [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x1D [Pin Complex] wcaps 0x00400400: Mono
+  Pincap 0x00000020: IN
+  Pin Default 0x40400001: [None] SPDIF Out at Ext N/A
+    Conn = Unknown, Color = Unknown
+    DefAssociation = 0x0, Sequence = 0x1
+  Pin-ctls: 0x20: IN
+Node 0x1E [Pin Complex] wcaps 0x00400781: Stereo Digital
+  Pincap 0x00000014: OUT Detect
+  Pin Default 0x411111F0: [None] Speaker at Ext Rear
+    Conn = 1/8, Color = Black
+    DefAssociation = 0xF, Sequence = 0x0
+  Pin-ctls: 0x40: OUT
+  Connection: 1
+     0x06
+Node 0x1F [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x20 [Vendor Defined Widget] wcaps 0x00F00040: Mono
+Node 0x21 [Pin Complex] wcaps 0x0040058D: Stereo Amp-Out
+  Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-Out vals: [0x80 0x80]
+  Pincap 0x0001001C: OUT HP EAPD Detect
+  EAPD 0x2: EAPD
+  Pin Default 0x0221101F: [Jack] HP Out at Ext Front
+    Conn = 1/8, Color = Black
+    DefAssociation = 0x1, Sequence = 0xF
+  Pin-ctls: 0x00:
+  Connection: 2
+     0x0C 0x0D
+Node 0x22 [Audio Mixer] wcaps 0x0020010B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-In vals: [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80]
+  Connection: 6
+     0x18 0x19 0x1A 0x1B 0x1D 0x0B
+Node 0x23 [Audio Mixer] wcaps 0x0020010B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-In vals: [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80]
+  Connection: 6
+     0x18 0x19 0x1A 0x1B 0x1D 0x0B
+HdaCodecDump Start
+Codec: Realtek ALC233
+Address: 1
+AFG Function Id: 0x1 (unsol 1)
+Vendor ID: 0x10EC0233
+Revision ID: 0x00100003
+Default PCM:
+    rates [0x0560]: 44100 48000 96000 192000
+    bits [0x000E]: 16 20 24
+    formats [0x00000001]: PCM
+Default Amp-In caps: N/A
+Default Amp-Out caps: N/A
+Node 0x02 [Audio Output] wcaps 0x0000041D: Stereo Amp-Out
+  Amp-Out caps: ofs=0x57, nsteps=0x57, stepsize=02, mute=0
+  Amp-Out vals: [0x57 0x57]
+Node 0x03 [Audio Output] wcaps 0x0000041D: Stereo Amp-Out
+  Amp-Out caps: ofs=0x57, nsteps=0x57, stepsize=02, mute=0
+  Amp-Out vals: [0x57 0x57]
+Node 0x04 [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x05 [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x06 [Audio Output] wcaps 0x00000611: Stereo Digital
+Node 0x07 [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x08 [Audio Input] wcaps 0x0010051B: Stereo Amp-In
+  Amp-In caps: ofs=0x17, nsteps=0x3F, stepsize=02, mute=1
+  Amp-In vals: [0x97 0x97]
+  Connection: 1
+     0x23
+Node 0x09 [Audio Input] wcaps 0x0010051B: Stereo Amp-In
+  Amp-In caps: ofs=0x17, nsteps=0x3F, stepsize=02, mute=1
+  Amp-In vals: [0x97 0x97]
+  Connection: 1
+     0x22
+Node 0x0A [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x0B [Audio Mixer] wcaps 0x0020010B: Stereo Amp-In
+  Amp-In caps: ofs=0x17, nsteps=0x1F, stepsize=05, mute=1
+  Amp-In vals: [0x97 0x97] [0x97 0x97] [0x97 0x97] [0x97 0x97] [0x17 0x17]
+  Connection: 5
+     0x18 0x19 0x1A 0x1B 0x1D
+Node 0x0C [Audio Mixer] wcaps 0x0020010B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-In vals: [0x00 0x00] [0x00 0x00]
+  Connection: 2
+     0x02 0x0B
+Node 0x0D [Audio Mixer] wcaps 0x0020010B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-In vals: [0x00 0x00] [0x80 0x80]
+  Connection: 2
+     0x03 0x0B
+Node 0x0E [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x0F [Audio Mixer] wcaps 0x0020010A: Mono Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-In vals: [0x00]
+  Connection: 1
+     0x0D
+Node 0x10 [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x11 [Audio Input] wcaps 0x0010051B: Stereo Amp-In
+  Amp-In caps: ofs=0x17, nsteps=0x3F, stepsize=02, mute=1
+  Amp-In vals: [0x97 0x97]
+  Connection: 1
+     0x12
+Node 0x12 [Pin Complex] wcaps 0x0040040B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=2F, mute=0
+  Amp-In vals:
+  Pincap 0x00000020: IN
+  Pin Default 0x40000000: [None] Line Out at Ext N/A
+    Conn = Unknown, Color = Unknown
+    DefAssociation = 0x0, Sequence = 0x0
+  Pin-ctls: 0x00:
+Node 0x13 [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x14 [Pin Complex] wcaps 0x0040058D: Stereo Amp-Out
+  Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-Out vals: [0x00 0x00]
+  Pincap 0x00010014: OUT EAPD Detect
+  EAPD 0x2: EAPD
+  Pin Default 0x90170110: [Fixed] Speaker at Int N/A
+    Conn = Analog, Color = Unknown
+    DefAssociation = 0x1, Sequence = 0x0
+  Pin-ctls: 0x40: OUT
+  Connection: 1
+     0x0C
+Node 0x15 [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x16 [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x17 [Pin Complex] wcaps 0x0040050C: Mono Amp-Out
+  Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-Out vals: [0x80]
+  Pincap 0x00000010: OUT
+  Pin Default 0x411111F0: [None] Speaker at Ext Rear
+    Conn = 1/8, Color = Black
+    DefAssociation = 0xF, Sequence = 0x0
+  Pin-ctls: 0x00:
+  Connection: 1
+     0x0F
+Node 0x18 [Pin Complex] wcaps 0x0040048B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=2F, mute=0
+  Amp-In vals:
+  Pincap 0x00003724: IN Detect
+  Pin Default 0x411111F0: [None] Speaker at Ext Rear
+    Conn = 1/8, Color = Black
+    DefAssociation = 0xF, Sequence = 0x0
+  Pin-ctls: 0x20: IN
+Node 0x19 [Pin Complex] wcaps 0x0040048B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=2F, mute=0
+  Amp-In vals:
+  Pincap 0x00003724: IN Detect
+  Pin Default 0x02A11030: [Jack] Mic at Ext Front
+    Conn = 1/8, Color = Black
+    DefAssociation = 0x3, Sequence = 0x0
+  Pin-ctls: 0x20: IN
+Node 0x1A [Pin Complex] wcaps 0x0040048B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=2F, mute=0
+  Amp-In vals:
+  Pincap 0x00003724: IN Detect
+  Pin Default 0x02A11040: [Jack] Mic at Ext Front
+    Conn = 1/8, Color = Black
+    DefAssociation = 0x4, Sequence = 0x0
+  Pin-ctls: 0x20: IN
+Node 0x1B [Pin Complex] wcaps 0x0040058F: Stereo Amp-In Amp-Out
+  Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=2F, mute=0
+  Amp-In vals: [0x00 0x00] [0x00 0x00]
+  Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-Out vals: [0x80 0x80]
+  Pincap 0x0001373C: IN OUT HP EAPD Detect
+  EAPD 0x2: EAPD
+  Pin Default 0x01011020: [Jack] Line Out at Ext Rear
+    Conn = 1/8, Color = Black
+    DefAssociation = 0x2, Sequence = 0x0
+  Pin-ctls: 0x20: IN
+  Connection: 2
+     0x0C 0x0D
+Node 0x1C [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x1D [Pin Complex] wcaps 0x00400400: Mono
+  Pincap 0x00000020: IN
+  Pin Default 0x40400001: [None] SPDIF Out at Ext N/A
+    Conn = Unknown, Color = Unknown
+    DefAssociation = 0x0, Sequence = 0x1
+  Pin-ctls: 0x20: IN
+Node 0x1E [Pin Complex] wcaps 0x00400781: Stereo Digital
+  Pincap 0x00000014: OUT Detect
+  Pin Default 0x411111F0: [None] Speaker at Ext Rear
+    Conn = 1/8, Color = Black
+    DefAssociation = 0xF, Sequence = 0x0
+  Pin-ctls: 0x40: OUT
+  Connection: 1
+     0x06
+Node 0x1F [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x20 [Vendor Defined Widget] wcaps 0x00F00040: Mono
+Node 0x21 [Pin Complex] wcaps 0x0040058D: Stereo Amp-Out
+  Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-Out vals: [0x80 0x80]
+  Pincap 0x0001001C: OUT HP EAPD Detect
+  EAPD 0x2: EAPD
+  Pin Default 0x0221101F: [Jack] HP Out at Ext Front
+    Conn = 1/8, Color = Black
+    DefAssociation = 0x1, Sequence = 0xF
+  Pin-ctls: 0x00:
+  Connection: 2
+     0x0C 0x0D
+Node 0x22 [Audio Mixer] wcaps 0x0020010B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-In vals: [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80]
+  Connection: 6
+     0x18 0x19 0x1A 0x1B 0x1D 0x0B
+Node 0x23 [Audio Mixer] wcaps 0x0020010B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-In vals: [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80]
+  Connection: 6
+     0x18 0x19 0x1A 0x1B 0x1D 0x0B
+HdaCodecDump Start
+Codec: Realtek ALC233
+Address: 1
+AFG Function Id: 0x1 (unsol 1)
+Vendor ID: 0x10EC0233
+Revision ID: 0x00100003
+Default PCM:
+    rates [0x0560]: 44100 48000 96000 192000
+    bits [0x000E]: 16 20 24
+    formats [0x00000001]: PCM
+Default Amp-In caps: N/A
+Default Amp-Out caps: N/A
+Node 0x02 [Audio Output] wcaps 0x0000041D: Stereo Amp-Out
+  Amp-Out caps: ofs=0x57, nsteps=0x57, stepsize=02, mute=0
+  Amp-Out vals: [0x57 0x57]
+Node 0x03 [Audio Output] wcaps 0x0000041D: Stereo Amp-Out
+  Amp-Out caps: ofs=0x57, nsteps=0x57, stepsize=02, mute=0
+  Amp-Out vals: [0x57 0x57]
+Node 0x04 [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x05 [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x06 [Audio Output] wcaps 0x00000611: Stereo Digital
+Node 0x07 [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x08 [Audio Input] wcaps 0x0010051B: Stereo Amp-In
+  Amp-In caps: ofs=0x17, nsteps=0x3F, stepsize=02, mute=1
+  Amp-In vals: [0x97 0x97]
+  Connection: 1
+     0x23
+Node 0x09 [Audio Input] wcaps 0x0010051B: Stereo Amp-In
+  Amp-In caps: ofs=0x17, nsteps=0x3F, stepsize=02, mute=1
+  Amp-In vals: [0x97 0x97]
+  Connection: 1
+     0x22
+Node 0x0A [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x0B [Audio Mixer] wcaps 0x0020010B: Stereo Amp-In
+  Amp-In caps: ofs=0x17, nsteps=0x1F, stepsize=05, mute=1
+  Amp-In vals: [0x97 0x97] [0x97 0x97] [0x97 0x97] [0x97 0x97] [0x17 0x17]
+  Connection: 5
+     0x18 0x19 0x1A 0x1B 0x1D
+Node 0x0C [Audio Mixer] wcaps 0x0020010B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-In vals: [0x00 0x00] [0x00 0x00]
+  Connection: 2
+     0x02 0x0B
+Node 0x0D [Audio Mixer] wcaps 0x0020010B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-In vals: [0x00 0x00] [0x80 0x80]
+  Connection: 2
+     0x03 0x0B
+Node 0x0E [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x0F [Audio Mixer] wcaps 0x0020010A: Mono Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-In vals: [0x00]
+  Connection: 1
+     0x0D
+Node 0x10 [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x11 [Audio Input] wcaps 0x0010051B: Stereo Amp-In
+  Amp-In caps: ofs=0x17, nsteps=0x3F, stepsize=02, mute=1
+  Amp-In vals: [0x97 0x97]
+  Connection: 1
+     0x12
+Node 0x12 [Pin Complex] wcaps 0x0040040B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=2F, mute=0
+  Amp-In vals:
+  Pincap 0x00000020: IN
+  Pin Default 0x40000000: [None] Line Out at Ext N/A
+    Conn = Unknown, Color = Unknown
+    DefAssociation = 0x0, Sequence = 0x0
+  Pin-ctls: 0x00:
+Node 0x13 [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x14 [Pin Complex] wcaps 0x0040058D: Stereo Amp-Out
+  Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-Out vals: [0x00 0x00]
+  Pincap 0x00010014: OUT EAPD Detect
+  EAPD 0x2: EAPD
+  Pin Default 0x90170110: [Fixed] Speaker at Int N/A
+    Conn = Analog, Color = Unknown
+    DefAssociation = 0x1, Sequence = 0x0
+  Pin-ctls: 0x40: OUT
+  Connection: 1
+     0x0C
+Node 0x15 [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x16 [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x17 [Pin Complex] wcaps 0x0040050C: Mono Amp-Out
+  Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-Out vals: [0x80]
+  Pincap 0x00000010: OUT
+  Pin Default 0x411111F0: [None] Speaker at Ext Rear
+    Conn = 1/8, Color = Black
+    DefAssociation = 0xF, Sequence = 0x0
+  Pin-ctls: 0x00:
+  Connection: 1
+     0x0F
+Node 0x18 [Pin Complex] wcaps 0x0040048B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=2F, mute=0
+  Amp-In vals:
+  Pincap 0x00003724: IN Detect
+  Pin Default 0x411111F0: [None] Speaker at Ext Rear
+    Conn = 1/8, Color = Black
+    DefAssociation = 0xF, Sequence = 0x0
+  Pin-ctls: 0x20: IN
+Node 0x19 [Pin Complex] wcaps 0x0040048B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=2F, mute=0
+  Amp-In vals:
+  Pincap 0x00003724: IN Detect
+  Pin Default 0x02A11030: [Jack] Mic at Ext Front
+    Conn = 1/8, Color = Black
+    DefAssociation = 0x3, Sequence = 0x0
+  Pin-ctls: 0x20: IN
+Node 0x1A [Pin Complex] wcaps 0x0040048B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=2F, mute=0
+  Amp-In vals:
+  Pincap 0x00003724: IN Detect
+  Pin Default 0x02A11040: [Jack] Mic at Ext Front
+    Conn = 1/8, Color = Black
+    DefAssociation = 0x4, Sequence = 0x0
+  Pin-ctls: 0x20: IN
+Node 0x1B [Pin Complex] wcaps 0x0040058F: Stereo Amp-In Amp-Out
+  Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=2F, mute=0
+  Amp-In vals: [0x00 0x00] [0x00 0x00]
+  Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-Out vals: [0x80 0x80]
+  Pincap 0x0001373C: IN OUT HP EAPD Detect
+  EAPD 0x2: EAPD
+  Pin Default 0x01011020: [Jack] Line Out at Ext Rear
+    Conn = 1/8, Color = Black
+    DefAssociation = 0x2, Sequence = 0x0
+  Pin-ctls: 0x20: IN
+  Connection: 2
+     0x0C 0x0D
+Node 0x1C [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x1D [Pin Complex] wcaps 0x00400400: Mono
+  Pincap 0x00000020: IN
+  Pin Default 0x40400001: [None] SPDIF Out at Ext N/A
+    Conn = Unknown, Color = Unknown
+    DefAssociation = 0x0, Sequence = 0x1
+  Pin-ctls: 0x20: IN
+Node 0x1E [Pin Complex] wcaps 0x00400781: Stereo Digital
+  Pincap 0x00000014: OUT Detect
+  Pin Default 0x411111F0: [None] Speaker at Ext Rear
+    Conn = 1/8, Color = Black
+    DefAssociation = 0xF, Sequence = 0x0
+  Pin-ctls: 0x40: OUT
+  Connection: 1
+     0x06
+Node 0x1F [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x20 [Vendor Defined Widget] wcaps 0x00F00040: Mono
+Node 0x21 [Pin Complex] wcaps 0x0040058D: Stereo Amp-Out
+  Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-Out vals: [0x80 0x80]
+  Pincap 0x0001001C: OUT HP EAPD Detect
+  EAPD 0x2: EAPD
+  Pin Default 0x0221101F: [Jack] HP Out at Ext Front
+    Conn = 1/8, Color = Black
+    DefAssociation = 0x1, Sequence = 0xF
+  Pin-ctls: 0x00:
+  Connection: 2
+     0x0C 0x0D
+Node 0x22 [Audio Mixer] wcaps 0x0020010B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-In vals: [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80]
+  Connection: 6
+     0x18 0x19 0x1A 0x1B 0x1D 0x0B
+Node 0x23 [Audio Mixer] wcaps 0x0020010B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-In vals: [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80]
+  Connection: 6
+     0x18 0x19 0x1A 0x1B 0x1D 0x0B
+HdaCodecDump Start
+Codec: Intel Skylake HDMI
+Address: 2
+AFG Function Id: 0x1 (unsol 0)
+Vendor ID: 0x80862809
+Revision ID: 0x00100000
+Default PCM: N/A
+Default Amp-In caps: N/A
+Default Amp-Out caps: N/A
+Node 0x02 [Audio Output] wcaps 0x00006611: Stereo Digital
+Node 0x03 [Pin Complex] wcaps 0x0040778D: Stereo Digital Amp-Out
+  Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-Out vals: [0x00 0x00]
+  Pincap 0x09000094: OUT Detect HBR HDMI DP
+  Pin Default 0x18560010: [Jack] Digital Out at Int Special
+    Conn = Digital, Color = Unknown
+    DefAssociation = 0x1, Sequence = 0x0
+  Pin-ctls: 0x00:
+  Connection: 1
+     0x02
+105:129  2:187  Found BIOS RSDP at %p
+105:129  0:000  Printing ACPI tables from RSDP %p ...
+105:129  0:000   %p: 'RSD PTR òNEC   (àû´$', Rev: -1254830089 (Acpi 2.0 or newer), Len: 36
+105:129  0:000    (Xsdt: %p, Rsdt: %p)
+105:129  0:000    %p: 'XSDTä', 'XSDT', Rev: -1254830265, Len: 1
+105:129  0:000    %p: 'RSDT„', 'RSDT', Rev: -1254830265, Len: 1
+105:129  0:000    Tables in Xsdt: 24
+105:129  0:000    0. %p: 'FACP', 'FACP', Rev: -1254830265, Len: 5
+105:129  0:000        (Dsdt: B4FBE228, Facs: BADE5D80, XDsdt: b4fbe228, XFacs: 0)
+105:129  0:000        %p: 'DSDT´', 'DSDT', Rev: -1254830409, Len: 2
+105:132  0:002        %p: 'FACS@', Ver: -1254830245, Len: 2
+105:132  0:000    1. %p: 'APIC¼', 'APIC', Rev: -1254830265, Len: 3
+105:132  0:000    2. %p: 'FPDTD', 'FPDT', Rev: -1254830265, Len: 1
+105:132  0:000    3. %p: 'FIDTœ', 'FIDT', Rev: -1254830265, Len: 1
+105:132  0:000    4. %p: 'TCPA2', 'TCPA', Rev: -1254830265, Len: 2
+105:132  0:000    5. %p: 'MCFG<', 'MCFG', Rev: -1254830265, Len: 1
+105:132  0:000    6. %p: 'HPET8', 'HPET', Rev: -1254830265, Len: 1
+105:132  0:000    7. %p: 'SSDTm', 'SSDT', Rev: -1254830265, Len: 1
+105:132  0:000    8. %p: 'LPIT”', 'LPIT', Rev: -1254830265, Len: 1
+105:132  0:000    9. %p: 'SSDTH', 'SSDT', Rev: -1254830265, Len: 2
+105:132  0:000    10. %p: 'SSDT®+', 'SSDT', Rev: -1254830265, Len: 2
+105:132  0:000    11. %p: 'SSDTã', 'SSDT', Rev: -1254830265, Len: 2
+105:132  0:000    12. %p: 'DBGP4', 'DBGP', Rev: -1254830265, Len: 1
+105:132  0:000    13. %p: 'DBG2T', 'DBG2', Rev: -1254830265, Len: 0
+105:132  0:000    14. %p: 'SSDT
+', 'SSDT', Rev: -1254830265, Len: 2
+105:132  0:000    15. %p: 'SLICv', 'SLIC', Rev: -1254830265, Len: 1
+105:132  0:000    16. %p: 'MSDMU', 'MSDM', Rev: -1254830265, Len: 3
+105:132  0:000    17. %p: 'SSDT¢T', 'SSDT', Rev: -1254830265, Len: 2
+105:132  0:000    18. %p: 'UEFIB', 'UEFI', Rev: -1254830265, Len: 1
+105:132  0:000    19. %p: 'SSDTs', 'SSDT', Rev: -1254830265, Len: 2
+105:132  0:000    20. %p: 'BGRT8', 'BGRT', Rev: -1254830265, Len: 1
+105:132  0:000    21. %p: 'LUFTâi', 'LUFT', Rev: -1254830265, Len: 1
+105:132  0:000    22. %p: 'WPBT4', 'WPBT', Rev: -1254830265, Len: 1
+105:132  0:000    23. %p: 'ASF!¥', 'ASF!', Rev: -1254830265, Len: 32
+105:132  0:000    Tables in Rsdt: 24
+105:132  0:000    0. %p: 'FACP„', 'FACP', Rev: -1254830265, Len: 2
+105:132  0:000        (Dsdt: B4FBE228, Facs: BADE5D40)
+105:132  0:000        %p: 'DSDT´', 'DSDT', Rev: -1254830409, Len: 2
+105:134  0:002        %p: 'FACS@', Ver: -1254830245, Len: 0
+105:134  0:000    1. %p: 'APIC¼', 'APIC', Rev: -1254830265, Len: 3
+105:134  0:000    2. %p: 'FPDTD', 'FPDT', Rev: -1254830265, Len: 1
+105:134  0:000    3. %p: 'FIDTœ', 'FIDT', Rev: -1254830265, Len: 1
+105:134  0:000    4. %p: 'TCPA2', 'TCPA', Rev: -1254830265, Len: 2
+105:134  0:000    5. %p: 'MCFG<', 'MCFG', Rev: -1254830265, Len: 1
+105:134  0:000    6. %p: 'HPET8', 'HPET', Rev: -1254830265, Len: 1
+105:134  0:000    7. %p: 'SSDTm', 'SSDT', Rev: -1254830265, Len: 1
+105:134  0:000    8. %p: 'LPIT”', 'LPIT', Rev: -1254830265, Len: 1
+105:134  0:000    9. %p: 'SSDTH', 'SSDT', Rev: -1254830265, Len: 2
+105:134  0:000    10. %p: 'SSDT®+', 'SSDT', Rev: -1254830265, Len: 2
+105:134  0:000    11. %p: 'SSDTã', 'SSDT', Rev: -1254830265, Len: 2
+105:134  0:000    12. %p: 'DBGP4', 'DBGP', Rev: -1254830265, Len: 1
+105:134  0:000    13. %p: 'DBG2T', 'DBG2', Rev: -1254830265, Len: 0
+105:134  0:000    14. %p: 'SSDT
+', 'SSDT', Rev: -1254830265, Len: 2
+105:134  0:000    15. %p: 'SLICv', 'SLIC', Rev: -1254830265, Len: 1
+105:134  0:000    16. %p: 'MSDMU', 'MSDM', Rev: -1254830265, Len: 3
+105:134  0:000    17. %p: 'SSDT¢T', 'SSDT', Rev: -1254830265, Len: 2
+105:134  0:000    18. %p: 'UEFIB', 'UEFI', Rev: -1254830265, Len: 1
+105:134  0:000    19. %p: 'SSDTs', 'SSDT', Rev: -1254830265, Len: 2
+105:134  0:000    20. %p: 'BGRT8', 'BGRT', Rev: -1254830265, Len: 1
+105:134  0:000    21. %p: 'LUFTâi', 'LUFT', Rev: -1254830265, Len: 1
+105:134  0:000    22. %p: 'WPBT4', 'WPBT', Rev: -1254830265, Len: 1
+105:134  0:000    23. %p: 'ASF!¥', 'ASF!', Rev: -1254830265, Len: 32
+105:134  0:000  Found UEFI Acpi 2.0 RSDP at %p
+105:134  0:000  Saving ACPI tables from RSDP %p to å’â„å‘â’ä»²ä…â€ È î€¨ë“»$ ...
+105:134  0:000   %p: 'RSD PTR òNEC   (àû´$', Rev: -1254830089 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+105:151  0:017    (Xsdt: %p, Rsdt: %p)
+105:151  0:000    %p: 'XSDTä', 'XSDT', Rev: -1254830265, Len: 1 -> XSDT.aml
+105:165  0:014    %p: 'RSDT„', 'RSDT', Rev: -1254830265, Len: 1 -> RSDT.aml
+105:181  0:015    Tables in Xsdt: 24
+105:181  0:000    0. %p: 'FACP', 'FACP', Rev: -1254830265, Len: 5 -> FACP.aml
+105:195  0:014        (Dsdt: B4FBE228, Facs: BADE5D80, XDsdt: b4fbe228, XFacs: 0)
+105:195  0:000        %p: 'DSDT´', 'DSDT', Rev: -1254830409, Len: 2 -> DSDT.aml
+105:214  0:019        %p: 'FACS@', Ver: -1254830245, Len: 2 -> FACS.aml
+105:229  0:014    1. %p: 'APIC¼', 'APIC', Rev: -1254830265, Len: 3 -> APIC.aml
+105:247  0:018    2. %p: 'FPDTD', 'FPDT', Rev: -1254830265, Len: 1 -> FPDT.aml
+105:262  0:014    3. %p: 'FIDTœ', 'FIDT', Rev: -1254830265, Len: 1 -> FIDT.aml
+105:275  0:013    4. %p: 'TCPA2', 'TCPA', Rev: -1254830265, Len: 2 -> TCPA.aml
+105:290  0:014    5. %p: 'MCFG<', 'MCFG', Rev: -1254830265, Len: 1 -> MCFG.aml
+105:304  0:014    6. %p: 'HPET8', 'HPET', Rev: -1254830265, Len: 1 -> HPET.aml
+105:320  0:015    7. %p: 'SSDTm', 'SSDT', Rev: -1254830265, Len: 1 -> SSDT-0-TC-FW.aml
+105:334  0:014    8. %p: 'LPIT”', 'LPIT', Rev: -1254830265, Len: 1 -> LPIT.aml
+105:350  0:015    9. %p: 'SSDTH', 'SSDT', Rev: -1254830265, Len: 2 -> SSDT-1-TC-FW.aml
+105:364  0:014    10. %p: 'SSDT®+', 'SSDT', Rev: -1254830265, Len: 2 -> SSDT-2-TC-FW.aml
+105:381  0:016    11. %p: 'SSDTã', 'SSDT', Rev: -1254830265, Len: 2 -> SSDT-3-TC-FW.aml
+105:400  0:019    12. %p: 'DBGP4', 'DBGP', Rev: -1254830265, Len: 1 -> DBGP.aml
+105:417  0:016    13. %p: 'DBG2T', 'DBG2', Rev: -1254830265, Len: 0 -> DBG2.aml
+105:433  0:016    14. %p: 'SSDT
+', 'SSDT', Rev: -1254830265, Len: 2 -> SSDT-4-TC-FW.aml
+105:448  0:015    15. %p: 'SLICv', 'SLIC', Rev: -1254830265, Len: 1 -> SLIC.aml
+105:464  0:016    16. %p: 'MSDMU', 'MSDM', Rev: -1254830265, Len: 3 -> MSDM.aml
+105:480  0:015    17. %p: 'SSDT¢T', 'SSDT', Rev: -1254830265, Len: 2 -> SSDT-5-TC-FW.aml
+105:495  0:014    18. %p: 'UEFIB', 'UEFI', Rev: -1254830265, Len: 1 -> UEFI.aml
+105:510  0:015    19. %p: 'SSDTs', 'SSDT', Rev: -1254830265, Len: 2 -> SSDT-6-TC-FW.aml (Found hidden SSDT 7 pcs)
+105:531  0:021        * 3126375192: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1566  53 53 44 54 1E 06 00 00 02 80 50 6D 52 65 66 00 Internal length = 1566 -> SSDT-x6_0-Cpu0Ist.aml
+105:546  0:014        * 3113705880: 'SSDT', 'ApIst', Rev: 2, Len: 1450  53 53 44 54 AA 05 00 00 02 CE 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-x6_1-ApIst.aml
+105:561  0:015        * 3113707544: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 895  53 53 44 54 7F 03 00 00 02 65 50 6D 52 65 66 00 Internal length = 895 -> SSDT-x6_2-Cpu0Cst.aml
+105:575  0:013        * 3113708568: 'SSDT', 'ApCst', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 EA 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x6_3-ApCst.aml
+105:589  0:013        * 3126377880: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 142  53 53 44 54 8E 00 00 00 02 2B 50 6D 52 65 66 00 Internal length = 142 -> SSDT-x6_4-Cpu0Hwp.aml
+105:603  0:014        * 3113708952: 'SSDT', 'ApHwp', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 FD 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x6_5-ApHwp.aml
+105:618  0:015        * 3113705496: 'SSDT', 'HwpLvt', Rev: 2, Len: 304  53 53 44 54 30 01 00 00 02 85 50 6D 52 65 66 00 Internal length = 304 -> SSDT-x6_6-HwpLvt.aml
+105:632  0:013  
+105:632  0:000    20. %p: 'BGRT8', 'BGRT', Rev: -1254830265, Len: 1 -> BGRT.aml
+105:646  0:014    21. %p: 'LUFTâi', 'LUFT', Rev: -1254830265, Len: 1 -> LUFT.aml
+105:662  0:015    22. %p: 'WPBT4', 'WPBT', Rev: -1254830265, Len: 1 -> WPBT.aml
+105:672  0:009    23. %p: 'ASF!¥', 'ASF!', Rev: -1254830265, Len: 32 -> ASF!.aml
+105:686  0:014    Tables in Rsdt: 24
+105:686  0:000    0. %p: 'FACP„', 'FACP', Rev: -1254830265, Len: 2 -> RSDT-FACP.aml
+105:700  0:013        (Dsdt: B4FBE228, Facs: BADE5D40)
+105:700  0:000        %p: 'DSDT´', 'DSDT', Rev: -1254830409, Len: 2
+105:702  0:002        %p: 'FACS@', Ver: -1254830245, Len: 0 -> RSDT-FACS.aml
+105:715  0:013    1. %p: 'APIC¼', 'APIC', Rev: -1254830265, Len: 3
+105:715  0:000    2. %p: 'FPDTD', 'FPDT', Rev: -1254830265, Len: 1
+105:715  0:000    3. %p: 'FIDTœ', 'FIDT', Rev: -1254830265, Len: 1
+105:715  0:000    4. %p: 'TCPA2', 'TCPA', Rev: -1254830265, Len: 2
+105:715  0:000    5. %p: 'MCFG<', 'MCFG', Rev: -1254830265, Len: 1
+105:715  0:000    6. %p: 'HPET8', 'HPET', Rev: -1254830265, Len: 1
+105:715  0:000    7. %p: 'SSDTm', 'SSDT', Rev: -1254830265, Len: 1
+105:715  0:000    8. %p: 'LPIT”', 'LPIT', Rev: -1254830265, Len: 1
+105:715  0:000    9. %p: 'SSDTH', 'SSDT', Rev: -1254830265, Len: 2
+105:715  0:000    10. %p: 'SSDT®+', 'SSDT', Rev: -1254830265, Len: 2
+105:715  0:000    11. %p: 'SSDTã', 'SSDT', Rev: -1254830265, Len: 2
+105:715  0:000    12. %p: 'DBGP4', 'DBGP', Rev: -1254830265, Len: 1
+105:715  0:000    13. %p: 'DBG2T', 'DBG2', Rev: -1254830265, Len: 0
+105:715  0:000    14. %p: 'SSDT
+', 'SSDT', Rev: -1254830265, Len: 2
+105:715  0:000    15. %p: 'SLICv', 'SLIC', Rev: -1254830265, Len: 1
+105:715  0:000    16. %p: 'MSDMU', 'MSDM', Rev: -1254830265, Len: 3
+105:715  0:000    17. %p: 'SSDT¢T', 'SSDT', Rev: -1254830265, Len: 2
+105:715  0:000    18. %p: 'UEFIB', 'UEFI', Rev: -1254830265, Len: 1
+105:715  0:000    19. %p: 'SSDTs', 'SSDT', Rev: -1254830265, Len: 2
+105:715  0:000    20. %p: 'BGRT8', 'BGRT', Rev: -1254830265, Len: 1
+105:715  0:000    21. %p: 'LUFTâi', 'LUFT', Rev: -1254830265, Len: 1
+105:715  0:000    22. %p: 'WPBT4', 'WPBT', Rev: -1254830265, Len: 1
+105:715  0:000    23. %p: 'ASF!¥', 'ASF!', Rev: -1254830265, Len: 32
+105:715  0:000  Found UEFI Acpi 1.0 RSDP at %p
+105:715  0:000  Printing ACPI tables from RSDP %p ...
+105:715  0:000   %p: 'RSD PTR òNEC   (àû´$', Rev: -1254830089 (Acpi 2.0 or newer), Len: 36
+105:715  0:000    (Xsdt: %p, Rsdt: %p)
+105:715  0:000    %p: 'XSDTä', 'XSDT', Rev: -1254830265, Len: 1
+105:715  0:000    %p: 'RSDT„', 'RSDT', Rev: -1254830265, Len: 1
+105:715  0:000    Tables in Xsdt: 24
+105:715  0:000    0. %p: 'FACP', 'FACP', Rev: -1254830265, Len: 5
+105:715  0:000        (Dsdt: B4FBE228, Facs: BADE5D80, XDsdt: b4fbe228, XFacs: 0)
+105:715  0:000        %p: 'DSDT´', 'DSDT', Rev: -1254830409, Len: 2
+105:717  0:002        %p: 'FACS@', Ver: -1254830245, Len: 2
+105:717  0:000    1. %p: 'APIC¼', 'APIC', Rev: -1254830265, Len: 3
+105:717  0:000    2. %p: 'FPDTD', 'FPDT', Rev: -1254830265, Len: 1
+105:717  0:000    3. %p: 'FIDTœ', 'FIDT', Rev: -1254830265, Len: 1
+105:717  0:000    4. %p: 'TCPA2', 'TCPA', Rev: -1254830265, Len: 2
+105:717  0:000    5. %p: 'MCFG<', 'MCFG', Rev: -1254830265, Len: 1
+105:717  0:000    6. %p: 'HPET8', 'HPET', Rev: -1254830265, Len: 1
+105:717  0:000    7. %p: 'SSDTm', 'SSDT', Rev: -1254830265, Len: 1
+105:717  0:000    8. %p: 'LPIT”', 'LPIT', Rev: -1254830265, Len: 1
+105:717  0:000    9. %p: 'SSDTH', 'SSDT', Rev: -1254830265, Len: 2
+105:717  0:000    10. %p: 'SSDT®+', 'SSDT', Rev: -1254830265, Len: 2
+105:717  0:000    11. %p: 'SSDTã', 'SSDT', Rev: -1254830265, Len: 2
+105:717  0:000    12. %p: 'DBGP4', 'DBGP', Rev: -1254830265, Len: 1
+105:717  0:000    13. %p: 'DBG2T', 'DBG2', Rev: -1254830265, Len: 0
+105:717  0:000    14. %p: 'SSDT
+', 'SSDT', Rev: -1254830265, Len: 2
+105:717  0:000    15. %p: 'SLICv', 'SLIC', Rev: -1254830265, Len: 1
+105:717  0:000    16. %p: 'MSDMU', 'MSDM', Rev: -1254830265, Len: 3
+105:717  0:000    17. %p: 'SSDT¢T', 'SSDT', Rev: -1254830265, Len: 2
+105:717  0:000    18. %p: 'UEFIB', 'UEFI', Rev: -1254830265, Len: 1
+105:717  0:000    19. %p: 'SSDTs', 'SSDT', Rev: -1254830265, Len: 2
+105:717  0:000    20. %p: 'BGRT8', 'BGRT', Rev: -1254830265, Len: 1
+105:717  0:000    21. %p: 'LUFTâi', 'LUFT', Rev: -1254830265, Len: 1
+105:717  0:000    22. %p: 'WPBT4', 'WPBT', Rev: -1254830265, Len: 1
+105:717  0:000    23. %p: 'ASF!¥', 'ASF!', Rev: -1254830265, Len: 32
+105:717  0:000    Tables in Rsdt: 24
+105:717  0:000    0. %p: 'FACP„', 'FACP', Rev: -1254830265, Len: 2
+105:717  0:000        (Dsdt: B4FBE228, Facs: BADE5D40)
+105:717  0:000        %p: 'DSDT´', 'DSDT', Rev: -1254830409, Len: 2
+105:720  0:002        %p: 'FACS@', Ver: -1254830245, Len: 0
+105:720  0:000    1. %p: 'APIC¼', 'APIC', Rev: -1254830265, Len: 3
+105:720  0:000    2. %p: 'FPDTD', 'FPDT', Rev: -1254830265, Len: 1
+105:720  0:000    3. %p: 'FIDTœ', 'FIDT', Rev: -1254830265, Len: 1
+105:720  0:000    4. %p: 'TCPA2', 'TCPA', Rev: -1254830265, Len: 2
+105:720  0:000    5. %p: 'MCFG<', 'MCFG', Rev: -1254830265, Len: 1
+105:720  0:000    6. %p: 'HPET8', 'HPET', Rev: -1254830265, Len: 1
+105:720  0:000    7. %p: 'SSDTm', 'SSDT', Rev: -1254830265, Len: 1
+105:720  0:000    8. %p: 'LPIT”', 'LPIT', Rev: -1254830265, Len: 1
+105:720  0:000    9. %p: 'SSDTH', 'SSDT', Rev: -1254830265, Len: 2
+105:720  0:000    10. %p: 'SSDT®+', 'SSDT', Rev: -1254830265, Len: 2
+105:720  0:000    11. %p: 'SSDTã', 'SSDT', Rev: -1254830265, Len: 2
+105:720  0:000    12. %p: 'DBGP4', 'DBGP', Rev: -1254830265, Len: 1
+105:720  0:000    13. %p: 'DBG2T', 'DBG2', Rev: -1254830265, Len: 0
+105:720  0:000    14. %p: 'SSDT
+', 'SSDT', Rev: -1254830265, Len: 2
+105:720  0:000    15. %p: 'SLICv', 'SLIC', Rev: -1254830265, Len: 1
+105:720  0:000    16. %p: 'MSDMU', 'MSDM', Rev: -1254830265, Len: 3
+105:720  0:000    17. %p: 'SSDT¢T', 'SSDT', Rev: -1254830265, Len: 2
+105:720  0:000    18. %p: 'UEFIB', 'UEFI', Rev: -1254830265, Len: 1
+105:720  0:000    19. %p: 'SSDTs', 'SSDT', Rev: -1254830265, Len: 2
+105:720  0:000    20. %p: 'BGRT8', 'BGRT', Rev: -1254830265, Len: 1
+105:720  0:000    21. %p: 'LUFTâi', 'LUFT', Rev: -1254830265, Len: 1
+105:720  0:000    22. %p: 'WPBT4', 'WPBT', Rev: -1254830265, Len: 1
+105:720  0:000    23. %p: 'ASF!¥', 'ASF!', Rev: -1254830265, Len: 32
+105:738  0:018  === [ FixBiosDsdt ] =============================
+105:738  0:000    0 replacements
+105:760  0:021  DSDT saved to EFI\CLOVER\ACPI\origin\DSDT-4.aml
+107:605  1:845  Boot option Boot0000 not found
+107:605  0:000  === [ StartLoader ] =============================
+107:605  0:000  Finally: ExternalClock=26MHz BusSpeed=100300kHz CPUFreq=2808MHz PIS: hw.busfrequency=104000000Hz
+107:605  0:000  start loader
+107:605  0:000  Loading boot.efi  status=Success
+107:655  0:050  GetOSVersion: 10.15.4 (19E266)
+107:655  0:000  CSR_CFG: CSR_ALLOW_UNTRUSTED_KEXTS | CSR_ALLOW_UNRESTRICTED_FS | CSR_ALLOW_TASK_FOR_PID | CSR_ALLOW_UNRESTRICTED_DTRACE | CSR_ALLOW_UNRESTRICTED_NVRAM
+107:655  0:000  Will not patch boot.efi
+107:655  0:000  === [ PatchSmbios ] =============================
+107:655  0:000  insert table 9 for dev 1F:6
+107:655  0:000  Table 11 present, but rewritten for us
+107:657  0:001  Trusting SMBIOS...
+107:657  0:000  Channels: 1
+107:657  0:000  Interleave: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23
+107:657  0:000   partNum=M471A1G43DB0-CPB    
+107:657  0:000  SMBIOS Type 17 Index = 0 => 0 0:
+107:657  0:000  BANK 0 DIMM0 2133MHz 8192MB(Ext:0MB)
+107:657  0:000  SMBIOS Type 17 Index = 1 => 1 1:
+107:657  0:000  BANK 0 DIMM1 EMPTY
+107:657  0:000  mTotalSystemMemory = 8192
+107:657  0:000  NumberOfMemoryDevices = 2
+107:657  0:000  Type20[0]->End = 0x7FFFFF, Type17[0] = 2000
+107:657  0:000  Table 131 is present, CPUType=35
+107:657  0:000  Change to: 705
+107:657  0:000  Table 133 is present, PlatformFeature=494748494F484B01
+107:657  0:000  Change to: 0
+107:657  0:000  === [ PatchACPI ] ===============================
+107:657  0:000  Xsdt reallocation done
+107:657  0:000  old FADT length=10C
+107:657  0:000   SignatureFixup: 0x62741D4C -> 0x0
+107:657  0:000  Apply DsdtFixMask=0x00000004
+107:657  0:000     drop _DSM mask=0xFFFF
+107:657  0:000  === [ FixBiosDsdt ] =============================
+107:657  0:000    0 replacements
+107:658  0:001  PreCleanup XSDT: count=24, length=228
+107:658  0:000  PreCleanup XSDT, corrected XSDT: count=24, length=228
+107:658  0:000  === [ ACPIDropTables ] ==========================
+107:658  0:000    0 replacements
+107:659  0:000    0 replacements
+107:659  0:000    0 replacements
+107:659  0:000    0 replacements
+107:659  0:000    0 replacements
+107:659  0:000    0 replacements
+107:659  0:000  Found OperationRegion(SANV, SystemMemory, BADE5E18, ...)
+107:659  0:000    0 replacements
+107:659  0:000  Found OperationRegion(PNVS, SystemMemory, B5F00000, ...)
+107:659  0:000  === [ ACPIPatchedAML ] ==========================
+107:659  0:000  Unsorted
+107:659  0:000  Inserting SSDT-Disable-DGPU.aml from EFI\CLOVER\ACPI\patched: size=1411 ... Success
+107:659  0:000  ApicCPUNum=1
+107:659  0:000  Maximum control=0x1C
+107:659  0:000  Turbo control=0x24
+107:659  0:000  P-States: min 0x8, max 0x24
+107:659  0:000  SSDT with CPU P-States and plugin-type generated successfully
+107:659  0:000  SSDT with CPU C-States generated successfully
+107:659  0:000  Cleanup XSDT: count=27, length=252
+107:659  0:000  corrected XSDT count=27, length=252
+107:659  0:000  === [ RestSetup macOS ] =========================
+107:659  0:000  EdidDiscovered size=128
+107:659  0:000  --- Discovered EDID Table size:128
+107:659  0:000  000  |  00  FF  FF  FF  FF  FF  FF  00  41  0C
+107:659  0:000  010  |  02  C1  89  1E  00  00  08  1A  01  03
+107:659  0:000  020  |  80  34  1D  78  2A  EA  E5  A5  57  51
+107:659  0:000  030  |  9D  26  0F  50  54  BD  4B  00  D1  C0
+107:659  0:000  040  |  95  00  95  0F  B3  00  81  C0  81  80
+107:659  0:000  050  |  81  40  01  01  02  3A  80  18  71  38
+107:659  0:000  060  |  2D  40  58  2C  45  00  09  25  21  00
+107:659  0:000  070  |  00  1E  00  00  00  FF  00  55  48  42
+107:659  0:000  080  |  31  36  30  38  30  30  37  38  31  37
+107:659  0:000  090  |  00  00  00  FC  00  50  48  4C  20  32
+107:659  0:000  100  |  35  37  45  37  0A  20  20  20  00  00
+107:659  0:000  110  |  00  FD  00  38  4C  1E  53  11  00  0A
+107:659  0:000  120  |  20  20  20  20  20  20  01  44
+107:659  0:000  add device: PciRoot(0x0)/Pci(0x2,0x0)
+107:659  0:000     Add key=AAPL,ig-platform-id valuelen=4
+107:659  0:000  Intel GFX injection not set
+107:659  0:000   RCBA disabled; cannot use it
+107:659  0:000   setting specified layout-id=28 (0x1C)
+107:659  0:000  stringlength = 1124
+107:659  0:000  CurrentMode: Width=1920 Height=1080
+107:659  0:000  Beginning FSInjection
+FSInjectionInstall ...
+- Our FSI_SIMPLE_FILE_SYSTEM_PROTOCOL installed on handle: B6F6BB98
+FSInjectionInstall ...
+- Our FSI_SIMPLE_FILE_SYSTEM_PROTOCOL installed on handle: B6F6BB98
+107:668  0:008  Use origin smbios table type 1 guid.
+107:671  0:002  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\Other
+107:671  0:000  ->Extra kext: EFI\CLOVER\kexts\Other\FakeSMC.kext (v.1800)
+107:682  0:011  ->Extra kext: EFI\CLOVER\kexts\Other\FakeSMC_SMMSensors.kext (v.1800)
+107:691  0:009  ->Extra kext: EFI\CLOVER\kexts\Other\FakeSMC_LPCSensors.kext (v.1800)
+107:801  0:109  ->Extra kext: EFI\CLOVER\kexts\Other\FakeSMC_GPUSensors.kext (v.1800)
+107:813  0:011  ->Extra kext: EFI\CLOVER\kexts\Other\USBInjectAll.kext (v.0.7.1)
+108:111  0:298  ->Extra kext: EFI\CLOVER\kexts\Other\WhateverGreen.kext (v.1.3.8)
+108:123  0:011  ->Extra kext: EFI\CLOVER\kexts\Other\IntelMausiEthernet.kext (v.2.2.0)
+108:131  0:008  ->Extra kext: EFI\CLOVER\kexts\Other\FakeSMC_CPUSensors.kext (v.1800)
+108:141  0:009  ->Extra kext: EFI\CLOVER\kexts\Other\AppleALC.kext (v.1.4.8)
+108:872  0:730  ->Extra kext: EFI\CLOVER\kexts\Other\FakeSMC_ACPISensors.kext (v.1800)
+108:897  0:025  ->Extra kext: EFI\CLOVER\kexts\Other\Lilu.kext (v.1.4.3)
+108:908  0:010  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\Off
+108:908  0:000  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10
+108:908  0:000  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10_normal
+108:908  0:000  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10.15
+108:908  0:000  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10.15_normal
+108:908  0:000  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10.15.4
+108:908  0:000  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10.15.4_normal
+108:909  0:001  SetStartupDiskVolume:
+108:909  0:000    * Volume: 'Preboot'
+108:909  0:000    * LoaderPath: ''
+108:909  0:000    * DevPath: Preboot
+108:909  0:000    * GUID = AB70EADC-95BA-4ED4-BCE7-DA49FC1AE046
+108:909  0:000    * efi-boot-device: <array><dict><key>IOMatch</key><dict><key>IOProviderClass</key><string>IOMedia</string><key>IOPropertyMatch</key><dict><key>UUID</key><string>AB70EADC-95BA-4ED4-BCE7-DA49FC1AE046</string></dict></dict></dict></array>
+108:909  0:000  SetScreenResolution: 1920x1080 - already set
+108:909  0:000  Custom boot is disabled
+108:911  0:002  Closing log
