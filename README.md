@@ -16,6 +16,11 @@ iGPU: Intel HD 530
 
 AppleALC: ALC233 layout-id 32 (let me know if there is a better layout-id than mine currently)
           INTERNAL SPEAKER does work!
+          
+BIOS SETTINGS: 
+- CSM Support DISABLED
+- Video Settings : 128MB
+
 
 <b>Not working:</b>
 - Sleep due to HD 530 issues
