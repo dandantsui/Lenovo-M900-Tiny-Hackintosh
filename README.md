@@ -14,7 +14,7 @@ RAM: 8GB 2133MHz
 
 iGPU: Intel HD 530
 
-AppleALC: ALC233 layout-id 32 (let me know if there is a better layout-id than mine currently)
+AppleALC: ALC233 layout-id 32 (confirmed working by goldwoods2005)
           INTERNAL SPEAKER does work!
           
 BIOS SETTINGS: 
